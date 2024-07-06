@@ -56,6 +56,76 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
         "required": true
+      },
+      "DURATION_LIMIT_MIN": {
+        "description": "Maximum duration minutes",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "Upstream Repository",
+        "value": "None",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Branch of Upstream Repository",
+        "value": "",
+        "required": true
+      },
+      "GIT_TOKEN": {
+        "description": "Fill this variable if your upstream repository is private",
+        "value": "",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Support Channel for your bot",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "Support group for your bot",
+        "value": "",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "Set this to True if you want the assistant to automatically leave chats after an interval",
+        "value": "True",
+        "required": true
+      },
+      "SPOTIFY_CLIENT_ID": {
+        "description": "Your spotify client id",
+        "value": "93b97a46f86f43a79cbf2d56d8919bfa",
+        "required": true
+      },
+      "SPOTIFY_CLIENT_SECRET": {
+        "description": "Spotify Client Secret",
+        "value": "8279b22c4640412b8bbc22609f24b527",
+        "required": true
+      },
+      "PLAYLIST_FETCH_LIMIT": {
+        "description": "Maximum limit for fetching playlist's track from youtube, spotify, apple links.",
+        "value": "",
+        "required": true
+      },
+      "TG_AUDIO_FILESIZE_LIMIT": {
+        "description": "Telegram audio file size limit (in bytes)",
+        "value": "",
+        "required": true
+      },
+      "TG_VIDEO_FILESIZE_LIMIT": {
+        "description": "Telegram video file size limit (in bytes)",
+        "value": "",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "URL to image when users start the bot",
+        "value": "",
+        "required": true
+      },
+      "PING_IMG_URL": {
+        "description": "URL to image when users use ping command",
+        "value": "",
+        "required": true
       }
     },
     "buildpacks": [
