@@ -62,21 +62,6 @@
         "value": "",
         "required": true
       },
-      "UPSTREAM_REPO": {
-        "description": "Upstream Repository",
-        "value": "",
-        "required": true
-      },
-      "UPSTREAM_BRANCH": {
-        "description": "Branch of Upstream Repository",
-        "value": "None",
-        "required": true
-      },
-      "GIT_TOKEN": {
-        "description": "Fill this variable if your upstream repository is private",
-        "value": "",
-        "required": false
-      },
       "SUPPORT_CHANNEL": {
         "description": "Support Channel for your bot",
         "value": "",
