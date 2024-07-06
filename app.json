@@ -64,12 +64,12 @@
       },
       "UPSTREAM_REPO": {
         "description": "Upstream Repository",
-        "value": "None",
+        "value": "",
         "required": true
       },
       "UPSTREAM_BRANCH": {
         "description": "Branch of Upstream Repository",
-        "value": "",
+        "value": "None",
         "required": true
       },
       "GIT_TOKEN": {
